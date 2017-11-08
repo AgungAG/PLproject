@@ -45,6 +45,9 @@
             </Menu>
             <MenuItem class="javax.swing.JMenuItem" name="LoginMenuItem">
               <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Alt+I"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Login"/>
               </Properties>
               <Events>
@@ -53,6 +56,9 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="LogoutMenuItem">
               <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Alt+O"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Logout"/>
               </Properties>
               <Events>
@@ -159,6 +165,9 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="ReportTestingMenuItem">
               <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+R"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Report Testing Unit"/>
               </Properties>
               <Events>

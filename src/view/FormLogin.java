@@ -149,7 +149,7 @@ public class FormLogin extends javax.swing.JDialog {
 
         jLabel4.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel4.setText("PERTAMINA LUBRICANS SYSTEM");
+        jLabel4.setText("PERTAMINA LUBRICANTS SYSTEM");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);

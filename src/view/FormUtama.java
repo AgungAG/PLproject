@@ -264,6 +264,7 @@ public class FormUtama extends javax.swing.JFrame {
 
         jMenu1.add(setupMenu);
 
+        LoginMenuItem.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_I, java.awt.event.InputEvent.ALT_MASK));
         LoginMenuItem.setText("Login");
         LoginMenuItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -272,6 +273,7 @@ public class FormUtama extends javax.swing.JFrame {
         });
         jMenu1.add(LoginMenuItem);
 
+        LogoutMenuItem.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_O, java.awt.event.InputEvent.ALT_MASK));
         LogoutMenuItem.setText("Logout");
         LogoutMenuItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -352,6 +354,7 @@ public class FormUtama extends javax.swing.JFrame {
         ReportMwhMenuItem.setText("Report Data MWH");
         MenuReport.add(ReportMwhMenuItem);
 
+        ReportTestingMenuItem.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_R, java.awt.event.InputEvent.CTRL_MASK));
         ReportTestingMenuItem.setText("Report Testing Unit");
         ReportTestingMenuItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
