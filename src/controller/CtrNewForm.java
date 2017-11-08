@@ -84,7 +84,7 @@ public class CtrNewForm extends NewForm {
                 o[8] = rs.getString("s.tinggi_cap");
                 o[9] = rs.getString("s.drop_test");
                 o[10] = rs.getString("s.uji_volume");
-                o[11] = rs.getString("s.uji_volume");
+                o[11] = rs.getString("s.tgl_test");
                 o[12] = rs.getString("u.namalengkap");
                 o[13] = rs.getString("s.pemeriksa");
                 mdlNewForm.addRow(o);

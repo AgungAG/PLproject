@@ -42,7 +42,7 @@ CREATE TABLE `log` (
   `id_user` int(11) DEFAULT NULL,
   `create_date` date DEFAULT NULL,
   PRIMARY KEY (`id_log`)
-) ENGINE=InnoDB AUTO_INCREMENT=341 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=343 DEFAULT CHARSET=latin1;
 
 /*Data for the table `log` */
 
@@ -386,7 +386,9 @@ insert  into `log`(`id_log`,`id_user`,`create_date`) values
 (337,28,'2017-11-07'),
 (338,20,'2017-11-07'),
 (339,20,'2017-11-07'),
-(340,28,'2017-11-07');
+(340,28,'2017-11-07'),
+(341,20,'2017-11-08'),
+(342,20,'2017-11-08');
 
 /*Table structure for table `mwh` */
 
@@ -469,8 +471,8 @@ CREATE TABLE `sample` (
 /*Data for the table `sample` */
 
 insert  into `sample`(`sample`,`no_MWH`,`visual`,`cavity_btl`,`berat_btl`,`tinggi_btl`,`berat_cap`,`tinggi_cap`,`torsi_cap`,`drop_test`,`uji_volume`,`tgl_test`,`id_user`,`pemeriksa`) values 
-(1,'1936/MWH-PUJL/1/2017','Baik','1,00','1,00','1,00','1,00','1,00','40,00','40,00','7,00','2017-11-07',28,'Agung'),
-(2,'1936/MWH-PUJL/1/2017','Baik','1,00','1,00','1,00','1,00','1,00','1,00','1,00','1,00','2017-11-07',28,'Agung');
+(1,'1936/MWH-PUJL/1/2017','Baik','1,9','1,2','12,2','2,1','2,2','40/40','Bocor Bocor','7%','2017-11-08',20,'Zen'),
+(2,'1936/MWH-PUJL/1/2017','Baik','1,0','1,0','1,0','5,9','4,9','40/40','Tidak Bocor','4%','2017-11-08',20,'Zen');
 
 /*Table structure for table `tmpsample` */
 
